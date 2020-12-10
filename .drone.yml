@@ -60,6 +60,8 @@ steps:
 ---
 kind: pipeline
 name: release
+depends_on:
+  - molecule
 workspace:
   path: veselahouba.bareos
 when:
