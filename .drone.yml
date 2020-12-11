@@ -64,7 +64,7 @@ depends_on:
   - molecule
 workspace:
   path: veselahouba.bareos
-when:
+trigger:
   event:
     - tag
 steps:
